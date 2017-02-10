@@ -1,6 +1,6 @@
 FROM python:2
 
-ADD bot.py /
+ADD . /
 
 RUN pip install -r requirements.txt
 
