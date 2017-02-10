@@ -1,8 +1,8 @@
 run: build
 	echo "Running application."
-	docker run python-transbot
+	docker run python-bottransporte
 
 build:
-	docker build -t python-transbot .
+	docker build -t python-bottransporte .
 	echo "Docker build done."
 	echo
